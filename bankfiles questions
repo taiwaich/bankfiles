@@ -1,0 +1,33 @@
+
+# 1. Create (load) dataframes customers, account_types, transaction_types, branches, accounts, transactions from the corresponding Hive tables.
+
+# 2. Display accounts that were opened in 2019
+
+# 3. Display accounts that haven't been closed.
+
+# 4. Display only 'business' accounts
+
+# 5. Display customer name, account number and date_opened for customers, who opened their accounts in 2018.
+
+# 6. Display all transactions done by customers from Manchester. Output must include the following columns: name of the customer, account, date of transaction, amount (you can limit output just to 20 rows)
+
+# 7. Display customers who made 5 largest transactions. Output customer name and amount
+
+# 8. When was the first transaction made?
+
+# 9. Which customer made the first transaction? Output customer name, city, account number, account type name, amount
+
+# 10. Display number of transactions made by clients of each branch. Output branch id and number of transactions
+
+# 11. Identify accounts that haven't made any transactions yet. Display account number and name of the customer that the account belongs to
+
+# 12. Display number of transactions made each year. Output year and number of transactions, ordered by year
+
+# 13. Display the number of transactions and their total value (amount) for each different account type. Output account type description, number of transactions, total value
+
+# 14. Identify customers who have more than one account. Output customer all information about customer (name, house number, street, city, postcode) and the number of accounts the customer has. (Hint: there are no customers who don't have any account)
+
+# 15. Identify customers who have accounts in more than one branch. Output customer_id and the number of branches of branches across which they have accounts.
+
+# 16. When was the first transaction done for each different transaction type? Output description of transaction type and date of the most recent transaction.
+
